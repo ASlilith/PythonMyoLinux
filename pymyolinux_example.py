@@ -38,5 +38,5 @@ if __name__ == "__main__":
     device_1.enable_emg_readings()
     device_1.add_joint_emg_imu_handler(joint_event_handler)
 
-    # device_1.scan_for_data_packets_conditional()
+    device_1.scan_for_data_packets_conditional()
     device_1.scan_for_data_packets(3)
